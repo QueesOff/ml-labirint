@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ML Maze Solver</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>ML Maze Solver</h1>
+		<canvas id="mazeCanvas"></canvas>
+		<div id="status"></div>
+		<button id="newLevelBtn">Новый уровень</button>
+
+		<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+		<script type="module" src="../src/maze.js"></script>
+		<script type="module" src="../src/model.js"></script>
+		<script type="module" src="../src/index.js"></script>
+	</body>
+</html>

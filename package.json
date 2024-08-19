@@ -1,0 +1,19 @@
+{
+	"name": "ml-maze-solver",
+	"version": "1.0.0",
+	"description": "A machine learning model that solves mazes and increases difficulty with each success.",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "parcel public/index.html --open"
+	},
+	"dependencies": {
+		"@tensorflow/tfjs": "^4.20.0"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"buffer": "^6.0.3",
+		"parcel": "^2.12.0",
+		"process": "^0.11.10"
+	}
+}
